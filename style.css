@@ -1,0 +1,66 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+    color: #333;
+}
+
+.speed-display {
+    margin: 20px 0;
+}
+
+.speed-value {
+    font-size: 5em;
+    font-weight: bold;
+    color: #000;
+}
+
+.unit {
+    font-size: 1.5em;
+    color: #555;
+}
+
+#startTest {
+    background-color: #e50914;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#startTest:hover {
+    background-color: #b00812;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #aaa;
+}
